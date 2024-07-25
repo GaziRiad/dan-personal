@@ -1,8 +1,22 @@
 /**************************/
+/* BELOW 1400px (Large Tablets) */
+/**************************/
+
+@media (max-width: 78.5em) {
+  .images-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+  }
+
+  .text-overlay {
+    font-size: 2.2rem;
+  }
+}
+
+/**************************/
 /* BELOW 908px (Tablets) */
 /**************************/
 
-/* @media (max-width: 28.125em) { */
 @media (max-width: 48em) {
   .nav-menu {
     padding: 2.2rem 1.5rem;
@@ -27,10 +41,6 @@
     padding: 0 1.5rem;
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-
-  .text-overlay {
-    font-size: 2.2rem;
   }
 
   /* Sidebar */

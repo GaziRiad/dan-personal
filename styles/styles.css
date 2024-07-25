@@ -94,7 +94,7 @@ body {
 /**************************/
 
 .nav-menu {
-  /* max-width: 160rem; */
+  max-width: 160rem;
   margin: 0 auto;
 
   display: flex;
@@ -114,14 +114,14 @@ body {
 
 .container {
   position: relative;
-  max-width: 110rem;
+  max-width: 160rem;
   margin: 6rem auto;
 }
 
 .images-box {
   padding: 0 4rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 4rem;
   /* max-width: rem; */
   margin: 0 auto;
