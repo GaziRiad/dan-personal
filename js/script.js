@@ -1,18 +1,16 @@
-// const btnNavEl = document.querySelectorAll(".humburger-menu");
-// const sideMenu = document.querySelector(".sidebar");
+const btnMenu = document.querySelector(".btn-mobile-nav");
+const navMenu = document.querySelector(".nav-menu");
 
-// ///////////////////////////////////////////////////////////
-// // Make mobile navigation work
+///////////////////////////////////////////////////////////
+// Make mobile navigation work
 
-// btnNavEl.forEach((btn) =>
-//   btn.addEventListener("click", function () {
-//     sideMenu.classList.toggle("nav-open");
-//     if (sideMenu.classList.contains("nav-open")) {
-//       document.documentElement.style.overflowY = "hidden";
-//     } else {
-//       document.documentElement.style.overflowY = "auto";
-//     }
+btnMenu.addEventListener("click", function () {
+  navMenu.classList.toggle("nav-open");
+  if (navMenu.classList.contains("nav-open")) {
+    document.documentElement.style.overflowY = "hidden";
+  } else {
+    document.documentElement.style.overflowY = "auto";
+  }
 
-//     console.log("Humberger button click!");
-//   })
-// );
+  console.log("Humberger button click!");
+});

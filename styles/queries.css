@@ -4,13 +4,17 @@
 
 /* @media (max-width: 28.125em) { */
 @media (max-width: 48em) {
+  .nav-menu {
+    padding: 2.2rem 1.5rem;
+  }
+
   .logo {
     font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: 1px;
   }
 
-  .humburger-menu {
+  .btn-mobile-nav {
     display: block;
   }
 
@@ -27,5 +31,65 @@
 
   .text-overlay {
     font-size: 2.2rem;
+  }
+
+  /* Sidebar */
+
+  .sidebar {
+    background-color: #fff;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: fixed; /* Change to fixed for full-screen overlay */
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateY(-100%);
+
+    padding: 0 4rem;
+
+    display: flex;
+    transition: transform 0.3s ease-in;
+
+    /* 1) Hide it visually */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 999;
+  }
+
+  .nav-links {
+    padding: 8rem 0;
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.2rem;
+  }
+
+  .nav-link-item {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.15s;
+  }
+
+  .nav-link-item:hover {
+    font-weight: 600;
+  }
+
+  .nav-open .sidebar {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    color: #000;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none !important;
   }
 }
