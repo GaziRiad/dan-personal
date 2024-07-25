@@ -2,6 +2,16 @@
 /* BELOW 1400px (Large Tablets) */
 /**************************/
 
+@media (min-width: 78.5em) {
+  .images-box {
+    margin-top: -8.2rem !important;
+  }
+}
+
+/**************************/
+/* BELOW 1400px (Large Tablets) */
+/**************************/
+
 @media (max-width: 78.5em) {
   .images-box {
     grid-template-columns: repeat(2, 1fr);
