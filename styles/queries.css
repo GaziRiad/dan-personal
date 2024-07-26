@@ -19,7 +19,8 @@
   }
 
   .text-overlay {
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
+    font-size: 1.875rem;
   }
 }
 
@@ -29,11 +30,12 @@
 
 @media (max-width: 48em) {
   .nav-menu {
-    padding: 2.2rem 1.5rem;
+    margin-top: 1.2125rem;
+    padding: 0 1.5rem;
   }
 
   .logo {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: 0px;
   }
@@ -44,12 +46,15 @@
 
   .container {
     max-width: 110rem;
-    margin: 1.6rem auto;
+    margin: 0 auto;
+    margin-bottom: 6rem;
   }
 
   .images-box {
+    margin-top: 1.25rem;
     padding: 0 1.5rem;
     grid-template-columns: 1fr;
+    gap: 2rem;
     gap: 2rem;
   }
 
