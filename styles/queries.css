@@ -108,6 +108,11 @@
     transform: translateY(0);
   }
 
+  .icon-mobile-nav[name="close-outline"] {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
     color: #000;

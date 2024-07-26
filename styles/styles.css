@@ -149,7 +149,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 4rem;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 80vh;
   justify-items: center; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
 }
@@ -247,4 +247,10 @@ body {
 
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+}
+
+.icon-mobile-nav[name="menu-outline"] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
