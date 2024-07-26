@@ -2,11 +2,11 @@
 /* BELOW 1400px (Large Tablets) */
 /**************************/
 
-@media (min-width: 78.5em) {
+/* @media (min-width: 78.5em) {
   .images-box {
     margin-top: -8.2rem !important;
   }
-}
+} */
 
 /**************************/
 /* BELOW 1400px (Large Tablets) */
@@ -19,7 +19,6 @@
   }
 
   .text-overlay {
-    /* font-size: 2.2rem; */
     font-size: 1.875rem;
   }
 }
@@ -30,12 +29,12 @@
 
 @media (max-width: 48em) {
   .nav-menu {
-    margin-top: 1.2125rem;
-    padding: 0 1.5rem;
+    padding: 1.2125rem 1.5rem;
   }
 
   .logo {
-    font-size: 2.6rem;
+    /* font-size: 2.6rem; */
+    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: 0px;
   }
@@ -51,7 +50,7 @@
   }
 
   .images-box {
-    margin-top: 1.25rem;
+    /* margin-top: 1.25rem; */
     padding: 0 1.5rem;
     grid-template-columns: 1fr;
     gap: 2rem;
