@@ -193,7 +193,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+  background: rgba(0, 0, 0, 0.35); /* semi-transparent overlay */
   transition: background 0.5s;
 }
 
@@ -240,9 +240,14 @@ body {
 }
 
 .icon-mobile-nav {
-  height: 3.8rem;
-  width: 3.8rem;
+  /* height: 3.8rem;
+  width: 3.8rem; */
   color: #000;
+}
+
+.btn-mobile-nav .icon-mobile-nav[name="close-outline"] {
+  margin-right: -0.5rem;
+  margin-top: -1rem;
 }
 
 .icon-mobile-nav[name="close-outline"] {
@@ -252,5 +257,5 @@ body {
 .icon-mobile-nav[name="menu-outline"] {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
