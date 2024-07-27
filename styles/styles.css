@@ -57,7 +57,7 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 /* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Archivo+Black&family=Staatliches&display=swap");
 
 * {
   padding: 0;
@@ -208,7 +208,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   /* font-size: 2.2rem; */
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Staatliches", sans-serif;
   font-size: 2.4rem;
   /* max-width: 170px; */
   font-weight: 700;
