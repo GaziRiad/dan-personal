@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap");
 
 * {
   padding: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Charis SIL", serif;
+  font-family: "Noto Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #000;
